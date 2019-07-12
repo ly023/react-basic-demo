@@ -10,8 +10,8 @@ const App = () => {
                 <ul className="nav">
                     {
                         routes.map((r) => {
-                            return <li>
-                                <NavLink to={r.path}>{r.name}</NavLink>
+                            return <li key={r.path}>
+                                <NavLink to={r.path} activeClassName="active">{r.name}</NavLink>
                             </li>
                         })
                     }

@@ -1,6 +1,6 @@
-import React from 'react'
 import ContextDemo from '../demos/ContextDemo'
 import ImplementReduxDemo from '../demos/ImplementReduxDemo'
+import HooksDemo from '../demos/HooksDemo'
 
 export default [
     {
@@ -12,5 +12,10 @@ export default [
         path: '/implement-redux-demo',
         name: '动手实现redux',
         component: ImplementReduxDemo
+    },
+    {
+        path: '/hooks-demo',
+        name: 'react hooks demo',
+        component: HooksDemo
     }
 ]

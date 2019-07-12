@@ -5,18 +5,30 @@
 
 .nav {
     margin: 0;
+    padding: 0;
     list-style-type: none;
     background-color: #eff0f1;
 }
 
 .nav > li {
     display: inline-block;
-    margin: 0 20px;
-    padding: 20px 0;
 }
 
 .nav > li a {
+    display: inline-block;
+    padding: 10px;
     color: #2B91AF;
     font-size: 18px;
     text-decoration: none;
+}
+
+.nav > li a.active {
+    background-color: #2B91AF;
+    color: #fff;
+}
+
+.box {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #597786;
 }
