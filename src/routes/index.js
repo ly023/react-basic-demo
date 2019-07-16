@@ -10,12 +10,12 @@ export default [
     },
     {
         path: '/implement-redux-demo',
-        name: '动手实现redux',
+        name: '实现redux',
         component: ImplementReduxDemo
     },
     {
         path: '/hooks-demo',
-        name: 'react hooks demo',
+        name: 'hooks demo',
         component: HooksDemo
     }
 ]
