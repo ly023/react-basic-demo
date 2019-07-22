@@ -1,6 +1,7 @@
 import ContextDemo from '../demos/ContextDemo'
 import ImplementReduxDemo from '../demos/ImplementReduxDemo'
 import HooksDemo from '../demos/HooksDemo'
+import TempDemo from '../demos/TempDemo'
 
 export default [
     {
@@ -17,5 +18,10 @@ export default [
         path: '/hooks-demo',
         name: 'hooks demo',
         component: HooksDemo
+    },
+    {
+        path: '/temp',
+        name: '临时 demo',
+        component: TempDemo
     }
 ]
