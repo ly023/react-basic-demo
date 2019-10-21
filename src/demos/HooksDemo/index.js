@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import UseWindowSizeComp from './UseWindowSizeComp'
 import TextInputWithFocusButton from './UseRefComp'
-import UseComponentSizeComp from './UseComponentSizeComp'
+// import UseComponentSizeComp from './UseComponentSizeComp'
 import UseCallbackComp from './UseCallbackComp'
 import UseMemoComp from './UseMemoComp'
 import UseReducerComp from './UseReducerComp'
@@ -24,9 +24,9 @@ export default class extends Component {
                     <div className="box">
                         useRef demo： <TextInputWithFocusButton/>
                     </div>
-                    <div className="box">
-                        useLayoutEffect：<UseComponentSizeComp/>
-                    </div>
+                    {/*<div className="box">*/}
+                    {/*    useLayoutEffect：<UseComponentSizeComp/>*/}
+                    {/*</div>*/}
                     <div className="box">
                         useMemo：<UseMemoComp/>
                     </div>
